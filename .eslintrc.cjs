@@ -12,6 +12,7 @@ module.exports = {
 	plugins: ['react'],
 	rules: {
 		'react/react-in-jsx-scope': 0,
+		'react/prop-types': 0,
 		'constructor-super': 2,
 		'for-direction': 2,
 		'getter-return': 2,

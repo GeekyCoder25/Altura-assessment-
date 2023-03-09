@@ -6,12 +6,14 @@
 	"scripts": {
 		"dev": "vite --host --open --port 3000",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"json": "npx json-server --watch src/data/db.json --port 8000"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"react-router-dom": "^6.8.2"
+		"react-router-dom": "^6.8.2",
+		"uuidv4": "^6.2.13"
 	},
 	"devDependencies": {
 		"@imaginary-cloud/eslint-config-react": "^2.0.1",
